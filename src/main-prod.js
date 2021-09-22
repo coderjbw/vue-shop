@@ -4,8 +4,8 @@ import router from './router'
 import store from './store'
 import './assets/fonts/iconfont.css'
 import './assets/css/global.css'
-import './elementui'
-import 'element-ui/lib/theme-chalk/index.css'
+// import './elementui'
+// import 'element-ui/lib/theme-chalk/index.css'
 import './vuequilleditor'
 import axios from 'axios'
 import TreeTable from 'vue-table-with-tree-grid'
@@ -14,7 +14,7 @@ import Nprogress from 'nprogress'
 //用于显示加载进度条样式
 // import 'nprogress/nprogress.css'
 
-Vue.prototype.$http = axios
+Vue.prototype.$http = axios;
 axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'
 axios.interceptors.request.use(config=>{
   // console.log(config)

@@ -12,7 +12,7 @@ import TreeTable from 'vue-table-with-tree-grid'
 //用于显示加载进度条
 import Nprogress from 'nprogress'
 //用于显示加载进度条样式
-// import 'nprogress/nprogress.css'
+import 'nprogress/nprogress.css'
 
 Vue.prototype.$http = axios
 axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'

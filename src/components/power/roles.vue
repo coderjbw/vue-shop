@@ -31,7 +31,7 @@
                     <i class="el-icon-caret-right"></i>
                   </el-col>
                   <el-col :span="18">
-                    <el-tag type="warning" v-for="(item3,index3) in item2.children" :key="item3.id" closable @close="removetag(scope.row,item3.id)">
+                    <el-tag type="warning" v-for="item3 in item2.children" :key="item3.id" closable @close="removetag(scope.row,item3.id)">
                         {{item3.authName}}
                     </el-tag>
                   </el-col>
